@@ -20,7 +20,7 @@ pipeline {
         sh 'cat trufflehog'
       }
     }
-    */
+   
     
     stage ('Source Composition Analysis') {
       steps {
@@ -32,7 +32,7 @@ pipeline {
         
       }
     }
-    
+     */
     
     stage ('SAST') {
       steps {
